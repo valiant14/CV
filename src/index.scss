@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,500&display=swap');
+
+$background: #212121;
+$primary: #0D7377;
+$secondary: #14FFEC;
+
+$text-primary: #fff;
+$text-secondary: #323232;
+
+ *{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ html {
+     margin: 0 !important;
+     padding: 0 !important;
+    }
+ body {
+     margin: 0 !important;
+     padding: 0 !important;
+    }
+
+.Navigation-Container {
+    position: relative;
+    color: $text-secondary;
+    background-color: $background;
+    overflow: hidden;
+
+    ul {
+        float: right;
+        translate: -3rem 0rem;
+        text-decoration: none;
+        color: $primary; 
+
+        li {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            list-style-type: none;
+              
+        }
+
+        &:active li {
+            color: $primary !important;
+        }
+    }
+}
+
+.home-bg {
+    background-color: #f1f7f7;
+    // height: 100vh;
+}
+
+.contact-bg {
+    background-color: #f1f7f7;
+    height: 100vh;
+}
+
+.project-bg {
+    background-color: #f1f7f7;
+    height: 100vh;
+}
+
+.aboutMe-bg {
+    background-color: #f1f7f7;
+    height: 100vh;
+}
+
+.Project-Container{
+    overflow: hidden;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Home-Container {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    columns: row;
+    gap: 3rem;
+
+    .About-Me {
+        h5 {
+            font-size: 15px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        p {
+            font-size: 17px;
+        }
+
+        .button-contactMe{
+            margin-top: 1rem;
+
+            .btn-About {
+                width: 7rem;
+                height: 2.5rem;
+                margin-right: 1rem;
+                border-radius: 1rem;
+                border: 2px solid #0D7377;
+                background-color: #323232;
+                color: #fff;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #f1f7f7;
+                    color: #0D7377;
+                    border: 2px solid #323232;
+                }
+            }
+            .btn-Contact {
+                width: 7rem;
+                height: 2.5rem;
+                margin-right: 1rem;
+                border-radius: 1rem;
+                border: 2px solid #323232;
+                color: #0D7377;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #323232;
+                    color: #fff;
+                    border: 2px solid #0D7377;
+                }
+            }
+        }
+    }
+    .MyImage {
+        position: relative;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: -1px -1px 8px 6px rgba(0,0,0,0.14);
+        -webkit-box-shadow: -1px -1px 8px 6px rgba(0,0,0,0.14);
+        -moz-box-shadow: -1px -1px 8px 6px rgba(0,0,0,0.14);
+
+        img {
+            height: 250px;
+            border-radius: 50%;
+            
+        }
+    }
+}
+
+.WhatIDO {
+    width: 80%;
+    margin-left: calc(10%);
+    h3 {
+        padding: 1rem;
+    }
+    .Expirience{
+        display: flex;
+        justify-content: center;
+        columns: row;
+        gap: 1rem;
+    }
+    .exp-container {
+        padding: 1rem;
+        display: flex;
+        columns: row;
+        gap: 1rem;
+    }
+
+    .exp-icon {
+        width: 100px;
+        height: 75px;
+        border: 1px solid black;
+        
+    }
+
+    .exp-items {
+        h4 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
