@@ -6,7 +6,6 @@ import Project from "../src/components/Pages/Projects/Project";
 import Contact from "../src/components/Pages/Contacts/Contact";
 import AboutMe from "./components/Pages/AboutMe/AboutMe";
 import NoPage from "../src/components/Pages/NoPage/Error404";
-import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (

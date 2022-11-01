@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom"
+import Footer from "../Footer/Footer";
 
 const NavigationTab = () => {
     const location = useLocation();
@@ -29,7 +30,7 @@ const NavigationTab = () => {
         <AnimatePresence initial={false}>
             <Outlet key={location.pathname}/>
         </AnimatePresence>
-
+        <Footer />
       </>
     )
 }

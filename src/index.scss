@@ -25,7 +25,7 @@ $text-secondary: #323232;
 .Navigation-Container {
     position: relative;
     color: $text-secondary;
-    background-color: $background;
+    background-color: #212121;
     overflow: hidden;
 
     ul {
@@ -49,8 +49,8 @@ $text-secondary: #323232;
 }
 
 .home-bg {
-    background-color: #f1f7f7;
-    // height: 100vh;
+    background-color: #fff;
+    height: 230vh;
 }
 
 .contact-bg {
@@ -90,6 +90,7 @@ $text-secondary: #323232;
     .About-Me {
         h5 {
             font-size: 15px;
+            color: #0D7377;
         }
         h3{
             font-size: 25px;
@@ -157,6 +158,8 @@ $text-secondary: #323232;
     margin-left: calc(10%);
     h3 {
         padding: 1rem;
+        color: #0D7377;
+        margin-bottom: calc(1%);
     }
     .Expirience{
         display: flex;
@@ -172,15 +175,16 @@ $text-secondary: #323232;
     }
 
     .exp-icon {
-        width: 100px;
-        height: 75px;
-        border: 1px solid black;
+        width: 35px;
+        height: 35px;
+        translate: 0rem .5rem;
         
     }
 
     .exp-items {
         h4 {
             font-size: 18px;
+            color: #0D7377;
         }
         p {
             font-size: 14px;
@@ -188,3 +192,75 @@ $text-secondary: #323232;
     }
 }
 
+.Testimonials {
+    width: 80%;
+    margin-left: calc(10%);
+    margin-top: calc(5%);
+    
+    h3 {
+        padding: 1rem;
+        color: #0D7377;
+    }
+
+    .testimonials-container {
+        padding: 1rem;
+        width: 80%;
+        display: flex;
+        margin-left: calc(10%);
+        margin-top: calc(5%);
+        columns: row;
+        gap: 4rem;
+    }
+
+    .Tescard-container{
+        border: 2px solid #14FFEC;
+        background-color: #323232;
+        padding: 1rem;
+    }
+
+    .Tescard-icon {
+        border: 1px solid #14FFEC;
+        background-color: #323232;
+        height: 150px;
+        width: 150px;
+        translate: -1rem -6rem;
+        float: right;
+        border-radius: 50%;
+    }
+
+    .Tescard-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            padding: 3rem;
+            color: #f1f7f7;
+            font-size: 15px;
+        }
+
+    }
+
+    .testCard-name {
+        width: 300px;
+        float: right;
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: #0D7377;
+        }
+        h5{
+            display: flex;
+            justify-content: center;
+            margin-top: calc(-5%);
+            color: #0D7377;
+        }
+
+    }
+}
+
+//Footer Here///
+.Footer {
+    height: 40vh;
+    background-color: #212121;
+}

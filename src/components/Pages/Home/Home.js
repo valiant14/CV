@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import valiant from '../../../assets/valiant.jpg'
 import {Link } from "react-router-dom";
-
+import { Code, Tool, Share2, Server } from "react-feather";
 const Home = () => {
 
 
@@ -40,36 +40,61 @@ const Home = () => {
                 <h3>What I Do</h3>
                 <div className="Expirience">
                     <div className="exp-container">
-                        <div className="exp-icon"></div>
+                        <div><Code className="exp-icon"/></div>
                         <div className="exp-items">
-                            <h4>Skill1</h4>
+                            <h4>Web Developer</h4>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                             
                     </div>
                     <div className="exp-container">
-                        <div className="exp-icon"></div>
+                        <div><Tool className="exp-icon"/></div>
                         <div className="exp-items">
-                            <h4>Skill2</h4>
+                            <h4>Technical Support</h4>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
                 </div>
                 <div className="Expirience">
                     <div className="exp-container">
-                        <div className="exp-icon"></div>
+                        <div ><Server className="exp-icon"/></div>
                         <div className="exp-items">
-                            <h4>Skill1</h4>
+                            <h4>System Administrator</h4>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                             
                     </div>
                     <div className="exp-container">
-                        <div className="exp-icon"></div>
+                        <div ><Share2 className="exp-icon"/></div>
                         <div className="exp-items">
-                            <h4>Skill2</h4>
+                            <h4>Network Technician</h4>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="Testimonials">
+                <h3>Testimonials</h3>
+                <div className="testimonials-container">
+                    <div className="Tescard-container">
+                        <div className="Tescard-icon"></div>
+                        <div className="Tescard-items">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>  
+                            <div className="testCard-name">
+                                <h3>William De Leon</h3>
+                                <h5>IT Project Manager</h5>
+                            </div>
+                    </div>
+                    <div className="Tescard-container">
+                        <div className="Tescard-icon"></div>
+                        <div className="Tescard-items">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>  
+                            <div className="testCard-name">
+                                <h3>Bader Al Dosary</h3>
+                                <h5>IT Manager</h5>
+                            </div>
                     </div>
                 </div>
             </div>
