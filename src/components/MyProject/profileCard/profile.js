@@ -12,11 +12,11 @@ const ProfileCard = () => {
                 <div className="profileCard">
                     <div className="lines"></div>
                     <div className="imageBox">
-                    <img src={img} alt="avatar"></img>
+                    <img src="https://cdn.myanimelist.net/r/360x360/images/characters/9/310307.jpg?s=56335bffa6f5da78c3824ba0dae14a26" alt="avatar"></img>
                     </div>
                     <div className="content">
                     <div className="details">
-                        <h2>Valiant Ocampo <br/> <span>Front-end Developer</span></h2>
+                        <h2>Web D. Luppy <br/> <span>Front-end Developer</span></h2>
                         <div className="info">
                         <h3>93 <br/><span>Posts</span></h3>
                         <h3>170k <br/><span>Followers</span></h3>

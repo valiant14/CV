@@ -2,6 +2,8 @@ import { motion } from "framer-motion"
 import './Project.scss'
 import ProjectBTN from "../../MyProject/buttons/button";
 import ProfileCard from "../../MyProject/profileCard/profile";
+import Weather from "../../MyProject/weather/weather";
+import Text from "../../Text/text";
 
 import {Col,Row,Card} from 'react-bootstrap'
 const Projects = () => {
@@ -19,12 +21,13 @@ const Projects = () => {
               <Row>
                 <Col>
                   <ProjectBTN />
+                  <Text/>
+                </Col>
+                <Col>
+                  <Weather />
                 </Col>
                 <Col>
                   <ProfileCard/>
-                </Col>
-                <Col>
-                  
                 </Col>
               </Row>
             </div>
