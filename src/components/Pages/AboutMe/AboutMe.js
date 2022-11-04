@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-
+import AboutMeContent from "../../AboutMe/AboutMe";
 
 const AboutMe = () => {
     return (
@@ -12,7 +12,7 @@ const AboutMe = () => {
       >
         <div className="AboutMe-Container">
           <motion.h1 animate={{y:"0%"}} initial={{y: "100%"}} transition={{delay: 0.5, duration:0.5}}>
-            AboutMe
+            <AboutMeContent />
           </motion.h1>
         </div>
         
