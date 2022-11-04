@@ -7,6 +7,9 @@ $secondary: #14FFEC;
 $text-primary: #fff;
 $text-secondary: #323232;
 
+$small: 600px;
+$medium: 900px;
+
  *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -27,6 +30,7 @@ $text-secondary: #323232;
     color: $text-secondary;
     background-color: #212121;
     overflow: hidden;
+    width: 100%;
 
     ul {
         float: right;
@@ -45,6 +49,8 @@ $text-secondary: #323232;
         &:active li {
             color: $primary !important;
         }
+
+
     }
 }
 
@@ -264,3 +270,51 @@ $text-secondary: #323232;
     height: 40vh;
     background-color: #212121;
 }
+
+
+
+@media screen and (max-width: $small) {
+    .Navigation-Container {
+        width: 825px;
+    }
+  }
+@media screen and (max-width: $small){
+    .Home-Container{
+        width: 825px;
+        margin: 0;
+        padding: 0;
+        .About-Me{
+            translate: 1rem 0rem;
+            text-align: center;
+            
+            p{
+                text-align: center;
+            }
+        }
+        .MyImage{
+            width: 250px;
+            translate: 5rem 0rem;
+            img {
+                width: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $small) {
+    .WhatIDO {
+        width: 725px;
+    }
+  }
+
+@media screen and (max-width: $small) {
+    .Testimonials {
+        width: 5px;
+    }
+  }
+
+@media screen and (max-width: $small) {
+    .Footer {
+        width: 825px;
+    }
+  }
