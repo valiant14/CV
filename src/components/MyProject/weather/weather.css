@@ -1,4 +1,9 @@
-
+.bg-Weather {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .weatherContainer{
     overflow: hidden;

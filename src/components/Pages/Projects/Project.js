@@ -4,7 +4,7 @@ import ProjectBTN from "../../MyProject/buttons/button";
 import ProfileCard from "../../MyProject/profileCard/profile";
 import Weather from "../../MyProject/weather/weather";
 import Text from "../../Text/text";
-
+import Login from "../../MyProject/login/login";
 import {Col,Row,Card} from 'react-bootstrap'
 const Projects = () => {
     return (
@@ -20,12 +20,15 @@ const Projects = () => {
             <div className="Project-items">
               <Row>
                 <Col>
-                  <ProjectBTN />
-                  <Text/>
-                </Col>
-                <Col>
+                  <Login /> 
                   <Weather />
                 </Col>
+                <Col>
+                  <ProjectBTN />
+                  <Text/>
+                  
+                </Col>
+
                 <Col>
                   <ProfileCard/>
                 </Col>

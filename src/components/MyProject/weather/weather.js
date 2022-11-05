@@ -6,7 +6,7 @@ import './weather.css'
 const Weather = () => {
     return (
         <>
-        <Card >
+        <Card className="mt-3">
             <Card.Header as="h5" className="btnTitle">Weather Widget</Card.Header>
             <Card.Body className="bg-Weather">
             <div class="weatherContainer">
