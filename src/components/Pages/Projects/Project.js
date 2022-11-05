@@ -5,6 +5,9 @@ import ProfileCard from "../../MyProject/profileCard/profile";
 import Weather from "../../MyProject/weather/weather";
 import Text from "../../Text/text";
 import Login from "../../MyProject/login/login";
+
+import GetAPI from "../../MyProject/feathApi/useEffect";
+
 import {Col,Row,Card} from 'react-bootstrap'
 const Projects = () => {
     return (
@@ -19,18 +22,31 @@ const Projects = () => {
           <motion.h1 animate={{y:"0%"}} initial={{y: "100%"}} transition={{delay: 0.5, duration:0.5}}>
             <div className="Project-items">
               <Row>
+                <h3>HTML & CSS</h3>
+                <br></br>
                 <Col>
-                  <Login /> 
+                  <Login />        
+                </Col>
+                <Col>
+                  <ProjectBTN /> 
                   <Weather />
-                </Col>
-                <Col>
-                  <ProjectBTN />
                   <Text/>
-                  
                 </Col>
-
                 <Col>
                   <ProfileCard/>
+                </Col>
+              </Row>
+              <Row className="mt-5">
+                <h3>React JS</h3>
+                <br></br>
+                <Col>
+                  <GetAPI />        
+                </Col>
+                <Col>
+
+                </Col>
+                <Col>
+
                 </Col>
               </Row>
             </div>
