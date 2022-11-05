@@ -16,14 +16,14 @@ const NavigationTab = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/Project">Project</Link>
+                        <Link to="/Component">Component</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/AboutMe">About Me</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         <Link to="/Contact">Contact</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>

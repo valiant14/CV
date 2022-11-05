@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<NavigationTab />}>
           <Route index element={<Home />} />
-          <Route path="Project" element={<Project />} />
-          <Route path="AboutMe" element={<AboutMe />} />
-          <Route path="Contact" element={<Contact />} />
+          <Route path="Component" element={<Project />} />
+          {/* <Route path="AboutMe" element={<AboutMe />} /> */}
+          {/* <Route path="Contact" element={<Contact />} /> */}
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

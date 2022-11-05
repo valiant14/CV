@@ -2,6 +2,9 @@ import { motion } from "framer-motion"
 import valiant from '../../../assets/valiant.jpg'
 import {Link } from "react-router-dom";
 import { Code, Tool, Share2, Server } from "react-feather";
+
+import Icons from "../../Home/SocialMedia/social";
+
 const Home = () => {
 
 
@@ -34,7 +37,9 @@ const Home = () => {
                                 <button className="btn-Contact">Contact Me</button>
                             </Link>
                         </div>
+                        <Icons />
                     </motion.div>
+                    
             </div>
             <div className="WhatIDO">
                 <h3>What I Do</h3>
