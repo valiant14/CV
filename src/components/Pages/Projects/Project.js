@@ -7,6 +7,7 @@ import Text from "../../Text/text";
 import Login from "../../MyProject/login/login";
 
 import GetAPI from "../../MyProject/feathApi/useEffect";
+import Arrays from "../../MyProject/Arrays/arrays";
 
 import {Col,Row,Card} from 'react-bootstrap'
 const Projects = () => {
@@ -43,7 +44,7 @@ const Projects = () => {
                   <GetAPI />        
                 </Col>
                 <Col>
-
+                  <Arrays />
                 </Col>
                 <Col>
 

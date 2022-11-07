@@ -1,0 +1,73 @@
+
+.arrayContainer {
+    width: 100%;
+    max-width: 780px;
+    padding: 0 16px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+      li, input {
+        display: block;
+        width: 100%;
+        background: #fff;
+        margin: 12px 0;
+        font-size: 28px;
+        border: 1px solid #0D7377;
+        box-shadow: -4px 4px 0px 0px #0D7377;
+        font-family: 'IBM Plex Mono', monospace;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: -2px 2px 0px 0px #0D7377;
+        }
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+
+      .remove {
+        position: relative;
+        height: 16px;
+        width: 16px;
+        margin: 0 0 0 16px;
+        padding: 0;
+        flex: 0 0 16px;
+        border: none;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: calc(50% - 1px);
+            height: 100%;
+            width: 2px;
+            background: #0D7377;
+        }
+        &::before {
+            transform: rotate(-45deg);
+        }
+        &::after {
+            transform: rotate(45deg);
+        }
+        &:focus {
+            outline: none;
+            background: #0D7377;
+            color: #fff;
+        }
+        &:focus::before,
+        &:focus::after {
+            background: #fff;
+        }
+      }
+}
