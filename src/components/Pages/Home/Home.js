@@ -30,7 +30,11 @@ const Home = () => {
                         <h5>Frontend Engineer & IT Support Specialist</h5>
                         <h3>Valiant F. Ocampo</h3>
                         <p>Hi! I'm a Front-End Engineering.</p>
-                        <p>I love to create beautiful products with delightful user experiences.</p>
+                        <p>Someone who is modest, hard-working and consistently sets firm goals
+                            for myself.
+                            <br></br>Also, can maximize my potentials as a productive and active
+                            individual giving<br></br> quality performance at all times for the attainment of
+                            the goal of the organization<br></br> I aim to be part of.</p>
                         <div className="button-contactMe">
                             <button className="btn-About">About Me</button>
                             <Link to="/Contact">
